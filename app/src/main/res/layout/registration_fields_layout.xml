@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/text_selector"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:id="@+id/email"
+        android:layout_gravity="center_horizontal"
+
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColor"
+        android:padding="10dp"
+        android:hint="E-mail" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:background="@drawable/text_selector"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:id="@+id/password"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColor"
+        android:padding="10dp"
+        android:hint="Password" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/button_selector"
+        android:layout_margin="5dp"
+        android:text="Register"
+        android:id="@+id/btn_register"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:weightSum="5"
+        >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#ffffff"
+            android:layout_weight="2"
+            android:layout_gravity="center_vertical"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="or"
+            android:id="@+id/textView"
+            android:layout_weight="1" android:gravity="center"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#ffffff"
+            android:layout_weight="2"
+            android:layout_gravity="center_vertical"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/facebook_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_selector"
+        android:text="@string/login_with_facebook"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:drawableLeft="@drawable/facebook"
+        />
+
+    <Button
+        android:id="@+id/twitter_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_selector"
+        android:text="@string/login_with_twitter"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:drawableLeft="@drawable/twitter"
+        />
+
+    <Button
+        android:id="@+id/google_plus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_selector"
+        android:text="@string/login_with_google"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        />
+
+
+
+</LinearLayout>

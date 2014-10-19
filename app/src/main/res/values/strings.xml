@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Be-Live</string>
+    <string name="app_sub1">Be Involved!</string>
+    <string name="app_sub2">Be Humane!</string>
+    <string name="app_sub3">Be Live!</string>
+    <string name="splash_1">Find cause in your city and support.</string>
+    <string name="splash_2">Create a cause and spread the word and grow your audience.</string>
+    <string name="splash_3">Create a fundraiser and get users to donate through the app or support an existing one.</string>
+    <string name="splash_4">Make an impact in your community.</string>
+
+    <string name="btn_skip">Skip</string>
+    <string name="registration">Registration</string>
+    <string name="facebook_app_id">328782250637932</string>
+    <string name="facebook_secret">a6b9eda4b63cad982cd6f65bbf8fd99c</string>
+
+    <string name="facebook_app_id_test">735983113115906</string>
+    <string name="facebook_secret_test">03755449e9f8c5aa28fa49ddddc424b6</string>
+
+    <string name="login_with_facebook">Login with facebook</string>
+    <string name="login_with_twitter">Login with twitter</string>
+    <string name="login_with_google">Login with google +</string>
+
+    <string name="parse_app_id">Bd5sQoIX5UIu9zZU6Za2ySOIYiH3uJDzo3qJSRt1</string>
+    <string name="parse_client_id">cY6rcNMTOCGcY17y3FPqehsEjuyN9hx4AXI62LmN</string>
+</resources>

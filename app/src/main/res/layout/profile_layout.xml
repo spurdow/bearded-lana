@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:civ="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/profile_main_background"
+        android:layout_gravity="top" />
+
+    <com.pkmmte.view.CircularImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/image"
+        civ:border_color="#fff"
+        civ:border_width="30dp"
+        civ:shadow="true"
+        android:layout_gravity="center_horizontal|top"
+        android:id="@+id/profile_circle_image" />
+
+</FrameLayout>

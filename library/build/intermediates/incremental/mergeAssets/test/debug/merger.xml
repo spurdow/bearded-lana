@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="debug" >
+        <source path="G:\Downloads\as\Be-Live\library\build\intermediates\bundles\debug\assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="G:\Downloads\as\Be-Live\library\src\androidTest\assets" />
+    </dataSet>
+
+</merger>
