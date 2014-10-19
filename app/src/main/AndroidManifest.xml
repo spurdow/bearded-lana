@@ -11,6 +11,10 @@
         </activity>
 
         <activity android:name="com.app.belive.Registration" android:configChanges="orientation|keyboardHidden">
+
+        </activity>
+
+        <activity android:name="com.app.belive.ActionBarTester" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
