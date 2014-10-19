@@ -4,12 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- Your content, here we're using a ScrollView -->
+    <!-- Your content, here we're using a LstView -->
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </ScrollView>
+    <ListView
+        android:id="@+id/ptr_listview"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
 
 </uk.co.senab.actionbarpulltorefresh.extras.actionbarcompat.PullToRefreshLayout>

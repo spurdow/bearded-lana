@@ -2,26 +2,14 @@ package com.app.parent;
 
 
 import android.os.Bundle;
+import android.view.View;
 
 import uk.co.senab.actionbarpulltorefresh.library.ActionBarPullToRefresh;
+import uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout;
 
-public class ParentActionBarPullToRefresh extends ParentActionBar {
+public abstract class ParentActionBarPullToRefresh extends ParentActionBar {
 
-    protected ActionBarPullToRefresh mPullRefresh = null;
+    protected PullToRefreshLayout mPullRefresh = null;
 
-    @Override
-    public int getResId() {
-        return 0;
-    }
 
-    @Override
-    public boolean hasActionBar() {
-        return true;
-    }
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        mPullRefresh = new ActionBarPullToRefresh();
-    }
 }

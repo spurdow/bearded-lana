@@ -31,19 +31,16 @@ public abstract class ParentActionBar extends ActionBarActivity {
             mActionBar.hide();
         }
 
-      /*  if(Settings.isFirstLaunched(this)){
-            onStartLoad();
-        }*/
-        onStartLoad();
 
     }
+
+
 
     ////////////////////////////////////////////////////////////////////////////////////////////////
     //                                  Protected Fields
     ////////////////////////////////////////////////////////////////////////////////////////////////
     protected void onStartLoad(){
-        ProgressBar progress = new ProgressBar(this, null, android.R.attr.progressBarStyleLarge);
-        progress.setIndeterminate(true);
+
 
     }
 
